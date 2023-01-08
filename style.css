@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2336;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    padding: 30px 30px 10px 30px;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: 140px;
+}
+
+#block {
+    height: 250px;
+    width: 600px;
+    background-color: #191421;
+    border-radius: 7px;
+    margin: 50px auto;
+    box-shadow: -5px -5px 20px 5px rgb(17, 132, 204), 5px 5px 20px 5px rgb(218, 62, 202);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#time {
+    color: rgb(17, 132, 204);
+    font-size: 70px;
+}
+
+#dated {
+    color: rgb(218, 62, 202);
+    font-size: 28px;
+}

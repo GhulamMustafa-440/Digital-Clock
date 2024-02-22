@@ -9,7 +9,7 @@ setInterval(function date() {
     let h1 = document.getElementById('time');
     h1.innerHTML = time
 
-    let month = a.getMonth();
+    let month = a.getMonth() + 1;
     let year = a.getFullYear();
     let date = a.getDate();
 
